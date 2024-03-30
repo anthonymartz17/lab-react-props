@@ -51,7 +51,8 @@ export default function DonationForm({ emitAddDonation, isDonationClosed }) {
 					onChange={handleChange}
 					name="amount"
 				/>
-			</div>
+        </div>
+        
 			<button>Donate!</button>
 		</form>
 	);
