@@ -60,6 +60,8 @@ header p {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  max-height: 65vh;
+  overflow-y: auto;
 }
 
 .sidebar ul {
