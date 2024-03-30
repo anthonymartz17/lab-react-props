@@ -18,7 +18,7 @@ export default function DonationForm({ emitAddDonation, isDonationClosed }) {
 		e.preventDefault();
 		emitAddDonation(formData);
 
-		setFormData(formData, { name: "", caption: "", amount: "" });
+		setFormData({ name: "", caption: "", amount: "" });
 	}
 
 	return isDonationClosed ? (

@@ -57,6 +57,7 @@ function App() {
 						donations={donations}
 						targetAmount={targetAmount}
 						raisedSoFar={raisedSoFar}
+						isDonationClosed={raisedSoFar >= targetAmount}
 					/>
 					<DonationForm
 						emitAddDonation={addDonation}
